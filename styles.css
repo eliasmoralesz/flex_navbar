@@ -1,0 +1,44 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: white; */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(44, 42, 42, 0.801);
+}
+
+.nav-title {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 40%;
+    margin: 20px;
+}
+
+.nav a {
+    color: white;
+}
+
+.btn {
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    background-color: cyan;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+
+
+
